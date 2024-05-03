@@ -4,6 +4,7 @@ using ProjectTronic.Backend.Contracts;
 using ProjectTronic.Backend.Core.Services;
 using ProjectTronic.Backend.Core.Services.IService;
 using ProjectTronic.Backend.Infrastructure.Repositories;
+using ProjectTronic.Backend.WebApi;
 using ProjectTronic.Backend.WebApi.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,6 +20,8 @@ builder.Services.AddSingleton<ISqlConnectionFactory>(serviceProvider =>
     return new SqlConnectionFactory(connectionString);
 });
 
+builder.Services.ConfigureCors();
+
 builder.Services.ConfigureAutoMapper();
 
 var app = builder.Build();
@@ -32,6 +35,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors(CorsPolicyNames.ProjectTronicAllowSpecificOrigins.ToString());
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
