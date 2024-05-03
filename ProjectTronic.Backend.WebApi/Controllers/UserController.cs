@@ -24,7 +24,34 @@ public class UserController : ControllerBase
         }
         catch (Exception e)
         {
-            Console.WriteLine(e);
+            throw;
+        }
+    }
+
+    [HttpGet("{userId:int}")]
+    public async Task<IActionResult> GetUser(CancellationToken cancellationToken, int userId)
+    {
+        try
+        {
+            var user = await _serviceManager.UserService.GetUser(cancellationToken, userId);
+            return Ok(user);
+        }
+        catch (Exception e)
+        {
+            throw;
+        }
+    }
+
+    [HttpDelete("{userId:int}")]
+    public async Task<IActionResult> DeleteUser(CancellationToken cancellationToken, int userId)
+    {
+        try
+        {
+            var users = await _serviceManager.UserService.DeleteUser(cancellationToken, userId);
+            return Ok(users);
+        }
+        catch (Exception e)
+        {
             throw;
         }
     }

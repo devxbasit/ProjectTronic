@@ -1,3 +1,4 @@
+using System.Linq.Expressions;
 using AutoMapper;
 using ProjectTronic.Backend.Application.Dto;
 using ProjectTronic.Backend.Application.Services.IService;
@@ -23,6 +24,41 @@ public class UserService : IUserService
             var user = await _repositoryManager.UserRepository.GetAllUsers(cancellationToken);
             var userDto = _mapper.Map<IEnumerable<UserDto>>(user);
             return userDto;
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
+    }
+
+    public async Task<UserDto> GetUser(CancellationToken cancellationToken, int userId)
+    {
+        try
+        {
+            var user = await _repositoryManager.UserRepository.GetUser(cancellationToken, userId);
+
+            if (user is null) throw new Exception("User Not Found!");
+
+            var userDto = _mapper.Map<UserDto>(user);
+            return userDto;
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
+    }
+
+    public async Task<bool> DeleteUser(CancellationToken cancellationToken, int userId)
+    {
+        try
+        {
+            var user = await _repositoryManager.UserRepository.GetUser(cancellationToken, userId);
+            if (user is null) throw new Exception("User Not Found!");
+
+            return await _repositoryManager.UserRepository.DeleteUser(cancellationToken, userId);
+            
         }
         catch (Exception e)
         {
