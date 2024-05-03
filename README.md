@@ -1,3 +1,6 @@
+# A powerful and flexible tool for streamlining your team's workflow.
+
+
 ### Plan less, do more - Project management, code management, bug tracking, and more
 
  The all-in-one collaboration tool, Manage projects, tasks, code, bugs, and much more
