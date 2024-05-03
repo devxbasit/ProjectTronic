@@ -150,6 +150,9 @@
         }
       },
       "ProjectTronic.Backend.Core/1.0.0": {
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.6"
+        },
         "runtime": {
           "ProjectTronic.Backend.Core.dll": {}
         }

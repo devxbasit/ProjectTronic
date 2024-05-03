@@ -10,3 +10,4 @@
 /home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.Core/obj/Debug/net8.0/refint/ProjectTronic.Backend.Core.dll
 /home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.Core/obj/Debug/net8.0/ProjectTronic.Backend.Core.pdb
 /home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.Core/obj/Debug/net8.0/ref/ProjectTronic.Backend.Core.dll
+/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.Core/obj/Debug/net8.0/ProjectTronic.Backend.Core.csproj.AssemblyReference.cache

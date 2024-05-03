@@ -1,6 +1,8 @@
 using ProjectTronic.Backend.Application.Services;
 using ProjectTronic.Backend.Application.Services.IService;
 using ProjectTronic.Backend.Contracts;
+using ProjectTronic.Backend.Core.Services;
+using ProjectTronic.Backend.Core.Services.IService;
 using ProjectTronic.Backend.Infrastructure.Repositories;
 using ProjectTronic.Backend.WebApi.Extensions;
 
@@ -11,6 +13,11 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 builder.Services.AddSingleton<IRepositoryManager, RepositoryManager>();
 builder.Services.AddSingleton<IServiceManager, ServiceManager>();
+builder.Services.AddSingleton<ISqlConnectionFactory>(serviceProvider =>
+{
+    var connectionString = builder.Configuration.GetConnectionString("ProjectTronicDbConnectionString");
+    return new SqlConnectionFactory(connectionString);
+});
 
 builder.Services.ConfigureAutoMapper();
 
