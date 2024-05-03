@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjectTronic.Backend.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04c62d68dccb33c56a11f0d0b6cb9929d6aa22a3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f9da6f76cf6eb617df119a9798f8d6ee735eb9b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjectTronic.Backend.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjectTronic.Backend.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
