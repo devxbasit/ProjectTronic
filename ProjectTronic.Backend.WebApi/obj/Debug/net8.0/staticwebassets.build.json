@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "mvrzhuBwbkdFFJDpTJeURQCtAzls0bSxzaQio62bvD8=",
+  "Source": "ProjectTronic.Backend.WebApi",
+  "BasePath": "_content/ProjectTronic.Backend.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

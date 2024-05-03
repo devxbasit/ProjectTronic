@@ -1,0 +1,346 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.WebApi/ProjectTronic.Backend.WebApi.csproj": {}
+  },
+  "projects": {
+    "/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.Application/ProjectTronic.Backend.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.Application/ProjectTronic.Backend.Application.csproj",
+        "projectName": "ProjectTronic.Backend.Application",
+        "projectPath": "/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.Application/ProjectTronic.Backend.Application.csproj",
+        "packagesPath": "/home/basit/.nuget/packages/",
+        "outputPath": "/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/basit/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.Infrastructure/ProjectTronic.Backend.Infrastructure.csproj": {
+                "projectPath": "/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.Infrastructure/ProjectTronic.Backend.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.Contracts/ProjectTronic.Backend.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.Contracts/ProjectTronic.Backend.Contracts.csproj",
+        "projectName": "ProjectTronic.Backend.Contracts",
+        "projectPath": "/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.Contracts/ProjectTronic.Backend.Contracts.csproj",
+        "packagesPath": "/home/basit/.nuget/packages/",
+        "outputPath": "/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/basit/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.Core/ProjectTronic.Backend.Core.csproj": {
+                "projectPath": "/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.Core/ProjectTronic.Backend.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.Core/ProjectTronic.Backend.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.Core/ProjectTronic.Backend.Core.csproj",
+        "projectName": "ProjectTronic.Backend.Core",
+        "projectPath": "/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.Core/ProjectTronic.Backend.Core.csproj",
+        "packagesPath": "/home/basit/.nuget/packages/",
+        "outputPath": "/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/basit/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.Infrastructure/ProjectTronic.Backend.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.Infrastructure/ProjectTronic.Backend.Infrastructure.csproj",
+        "projectName": "ProjectTronic.Backend.Infrastructure",
+        "projectPath": "/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.Infrastructure/ProjectTronic.Backend.Infrastructure.csproj",
+        "packagesPath": "/home/basit/.nuget/packages/",
+        "outputPath": "/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/basit/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.Contracts/ProjectTronic.Backend.Contracts.csproj": {
+                "projectPath": "/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.Contracts/ProjectTronic.Backend.Contracts.csproj"
+              },
+              "/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.Core/ProjectTronic.Backend.Core.csproj": {
+                "projectPath": "/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.Core/ProjectTronic.Backend.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.WebApi/ProjectTronic.Backend.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.WebApi/ProjectTronic.Backend.WebApi.csproj",
+        "projectName": "ProjectTronic.Backend.WebApi",
+        "projectPath": "/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.WebApi/ProjectTronic.Backend.WebApi.csproj",
+        "packagesPath": "/home/basit/.nuget/packages/",
+        "outputPath": "/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.WebApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/basit/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.Application/ProjectTronic.Backend.Application.csproj": {
+                "projectPath": "/home/basit/Documents/devxbasit@GitHub/DotNet-Projects-Multiple-Repos-Inside/ProjectTronic/ProjectTronic.Backend.Application/ProjectTronic.Backend.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -3,6 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectTronic.Frontent", "ProjectTronic.Frontent", "{1B6E078E-BA5D-45BA-9C67-1365C4F337C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectTronic.Backend", "ProjectTronic.Backend", "{D8AF9227-6DBF-4955-A7C0-5AD1B1E06347}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTronic.Backend.WebApi", "ProjectTronic.Backend.WebApi\ProjectTronic.Backend.WebApi.csproj", "{28A1F7BC-D9E6-4DB9-B69E-10135CD06B7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTronic.Backend.Contracts", "ProjectTronic.Backend.Contracts\ProjectTronic.Backend.Contracts.csproj", "{252C9352-5074-4AB1-A816-4351D31F9917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTronic.Backend.Core", "ProjectTronic.Backend.Core\ProjectTronic.Backend.Core.csproj", "{0660F954-14EF-4215-BB54-668A7E577303}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTronic.Backend.Infrastructure", "ProjectTronic.Backend.Infrastructure\ProjectTronic.Backend.Infrastructure.csproj", "{67BA29DE-97C9-4567-A2B8-5F9236FCC362}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTronic.Backend.ApiGateway", "ProjectTronic.Backend.ApiGateway\ProjectTronic.Backend.ApiGateway.csproj", "{CD4231E6-BAB4-4A35-BF9D-A7A75AB7A4BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectTronic.Backend.Services", "ProjectTronic.Backend.Services", "{15FBB6F9-367C-43CD-A01D-8D30539F37A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTronic.Backend.Services.Logger", "ProjectTronic.Backend.Services.Logger\ProjectTronic.Backend.Services.Logger.csproj", "{1EACA7E6-1C7B-4BAB-95A1-934ABC4AA7B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTronic.Backend.Application", "ProjectTronic.Backend.Application\ProjectTronic.Backend.Application.csproj", "{6A3BA3A7-0360-449F-A97B-8F7565F8570E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +30,45 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28A1F7BC-D9E6-4DB9-B69E-10135CD06B7E} = {D8AF9227-6DBF-4955-A7C0-5AD1B1E06347}
+		{252C9352-5074-4AB1-A816-4351D31F9917} = {D8AF9227-6DBF-4955-A7C0-5AD1B1E06347}
+		{0660F954-14EF-4215-BB54-668A7E577303} = {D8AF9227-6DBF-4955-A7C0-5AD1B1E06347}
+		{67BA29DE-97C9-4567-A2B8-5F9236FCC362} = {D8AF9227-6DBF-4955-A7C0-5AD1B1E06347}
+		{CD4231E6-BAB4-4A35-BF9D-A7A75AB7A4BA} = {D8AF9227-6DBF-4955-A7C0-5AD1B1E06347}
+		{15FBB6F9-367C-43CD-A01D-8D30539F37A8} = {D8AF9227-6DBF-4955-A7C0-5AD1B1E06347}
+		{1EACA7E6-1C7B-4BAB-95A1-934ABC4AA7B0} = {15FBB6F9-367C-43CD-A01D-8D30539F37A8}
+		{6A3BA3A7-0360-449F-A97B-8F7565F8570E} = {D8AF9227-6DBF-4955-A7C0-5AD1B1E06347}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28A1F7BC-D9E6-4DB9-B69E-10135CD06B7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A1F7BC-D9E6-4DB9-B69E-10135CD06B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A1F7BC-D9E6-4DB9-B69E-10135CD06B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A1F7BC-D9E6-4DB9-B69E-10135CD06B7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{252C9352-5074-4AB1-A816-4351D31F9917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{252C9352-5074-4AB1-A816-4351D31F9917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{252C9352-5074-4AB1-A816-4351D31F9917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{252C9352-5074-4AB1-A816-4351D31F9917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0660F954-14EF-4215-BB54-668A7E577303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0660F954-14EF-4215-BB54-668A7E577303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0660F954-14EF-4215-BB54-668A7E577303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0660F954-14EF-4215-BB54-668A7E577303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67BA29DE-97C9-4567-A2B8-5F9236FCC362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67BA29DE-97C9-4567-A2B8-5F9236FCC362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67BA29DE-97C9-4567-A2B8-5F9236FCC362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67BA29DE-97C9-4567-A2B8-5F9236FCC362}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD4231E6-BAB4-4A35-BF9D-A7A75AB7A4BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD4231E6-BAB4-4A35-BF9D-A7A75AB7A4BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD4231E6-BAB4-4A35-BF9D-A7A75AB7A4BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD4231E6-BAB4-4A35-BF9D-A7A75AB7A4BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EACA7E6-1C7B-4BAB-95A1-934ABC4AA7B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EACA7E6-1C7B-4BAB-95A1-934ABC4AA7B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EACA7E6-1C7B-4BAB-95A1-934ABC4AA7B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EACA7E6-1C7B-4BAB-95A1-934ABC4AA7B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A3BA3A7-0360-449F-A97B-8F7565F8570E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A3BA3A7-0360-449F-A97B-8F7565F8570E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A3BA3A7-0360-449F-A97B-8F7565F8570E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A3BA3A7-0360-449F-A97B-8F7565F8570E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

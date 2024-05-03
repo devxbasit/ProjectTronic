@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ProjectTronic.Backend.Contracts/1.0.0": {
+        "dependencies": {
+          "ProjectTronic.Backend.Core": "1.0.0"
+        },
+        "runtime": {
+          "ProjectTronic.Backend.Contracts.dll": {}
+        }
+      },
+      "ProjectTronic.Backend.Core/1.0.0": {
+        "runtime": {
+          "ProjectTronic.Backend.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProjectTronic.Backend.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProjectTronic.Backend.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
