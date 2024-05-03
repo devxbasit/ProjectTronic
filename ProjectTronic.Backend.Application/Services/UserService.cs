@@ -7,12 +7,12 @@ namespace ProjectTronic.Backend.Application.Services;
 
 public class UserService : IUserService
 {
-    private readonly IUserRepository _userRepository;
+    private readonly IRepositoryManager _repositoryManager;
     private readonly IMapper _mapper;
 
-    public UserService(IUserRepository userRepository, IMapper mapper)
+    public UserService(IRepositoryManager repositoryManager, IMapper mapper)
     {
-        _userRepository = userRepository;
+        _repositoryManager = repositoryManager;
         _mapper = mapper;
     }
 
@@ -20,7 +20,7 @@ public class UserService : IUserService
     {
         try
         {
-            var user = await _userRepository.GetAllUsers(cancellationToken);
+            var user = await _repositoryManager.UserRepository.GetAllUsers(cancellationToken);
             var userDto = _mapper.Map<IEnumerable<UserDto>>(user);
             return userDto;
         }

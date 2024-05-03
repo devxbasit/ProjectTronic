@@ -9,8 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
-builder.Services.AddSingleton<IUserRepository, UserRepository>();
-builder.Services.AddSingleton<IUserService, UserService>();
+builder.Services.AddSingleton<IRepositoryManager, RepositoryManager>();
+builder.Services.AddSingleton<IServiceManager, ServiceManager>();
 
 builder.Services.ConfigureAutoMapper();
 

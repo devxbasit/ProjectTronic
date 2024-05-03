@@ -7,11 +7,11 @@ namespace ProjectTronic.Backend.WebApi.Controllers;
 [Route("api/user")]
 public class UserController : ControllerBase
 {
-    private readonly IUserService _userService;
+    private readonly IServiceManager _serviceManager;
 
-    public UserController(IUserService userService)
+    public UserController(IServiceManager serviceManager)
     {
-        _userService = userService;
+        _serviceManager = serviceManager;
     }
 
     [HttpGet]
@@ -19,7 +19,7 @@ public class UserController : ControllerBase
     {
         try
         {
-            var users = await _userService.GetUsers(cancellationToken);
+            var users = await _serviceManager.UserService.GetUsers(cancellationToken);
             return Ok(users);
         }
         catch (Exception e)
