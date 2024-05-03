@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjectTronic.Backend.Services.Logger")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1d95d874376f73828d8a5b094248abba0bcdc05")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff35a2939a17832ab949f88fc7e0fc46bf403000")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjectTronic.Backend.Services.Logger")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjectTronic.Backend.Services.Logger")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
