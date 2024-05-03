@@ -23,6 +23,7 @@ builder.Services.AddSingleton<ISqlConnectionFactory>(serviceProvider =>
 builder.Services.ConfigureCors();
 
 builder.Services.ConfigureAutoMapper();
+builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
 
 var app = builder.Build();
 
@@ -35,6 +36,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseExceptionHandler(options => { });
 
 app.UseCors(CorsPolicyNames.ProjectTronicAllowSpecificOrigins.ToString());
 app.UseAuthentication();

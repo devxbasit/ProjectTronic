@@ -32,32 +32,16 @@ public class UserRepository : IUserRepository
 
     public async Task<User?> GetUser(CancellationToken cancellationToken, int userId)
     {
-        try
-        {
-            string sql = $"SELECT * FROM [User] WHERE UserId = {userId}";
-            var users = await _conn.QueryAsync<User>(sql, cancellationToken);
+        string sql = $"SELECT * FROM [User] WHERE UserId = {userId}";
+        var users = await _conn.QueryAsync<User>(sql, cancellationToken);
 
-            return users.FirstOrDefault();
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine(e);
-            throw;
-        }
+        return users.FirstOrDefault();
     }
 
     public async Task<bool> DeleteUser(CancellationToken cancellationToken, int userId)
     {
-        try
-        {
-            string sql = $"DELETE FROM [User] WHERE UserId = {userId}";
-            int rowsAffected = await _conn.ExecuteAsync(sql, cancellationToken);
-            return true;
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine(e);
-            throw;
-        }
+        string sql = $"DELETE FROM [User] WHERE UserId = {userId}";
+        int rowsAffected = await _conn.ExecuteAsync(sql, cancellationToken);
+        return true;
     }
 }
