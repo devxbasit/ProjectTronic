@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjectTronic.Backend.Contracts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+971e8b9495aa9554e4012a642e4600c0fdea8204")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+600b053cb34a47b6860449e4f37360f15027ec9c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjectTronic.Backend.Contracts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjectTronic.Backend.Contracts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

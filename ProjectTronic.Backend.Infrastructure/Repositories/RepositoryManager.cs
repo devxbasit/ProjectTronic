@@ -1,4 +1,4 @@
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 using ProjectTronic.Backend.Contracts;
 using ProjectTronic.Backend.Core.Services.IService;
 

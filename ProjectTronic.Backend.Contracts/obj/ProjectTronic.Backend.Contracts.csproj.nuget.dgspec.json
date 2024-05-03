@@ -105,9 +105,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "System.Data.SqlClient": {
+            "Microsoft.Data.SqlClient": {
               "target": "Package",
-              "version": "[4.8.6, )"
+              "version": "[5.2.0, )"
             }
           },
           "imports": [

@@ -1,8 +1,7 @@
-using System.Data.SqlClient;
 using Dapper;
+using Microsoft.Data.SqlClient;
 using ProjectTronic.Backend.Contracts;
 using ProjectTronic.Backend.Core.Models;
-using ISqlConnectionFactory = ProjectTronic.Backend.Core.Services.IService.ISqlConnectionFactory;
 
 namespace ProjectTronic.Backend.Infrastructure.Repositories;
 
