@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTronic.Backend.Appli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTronic.Backend.BugApi", "ProjectTronic.Backend.BugApi\ProjectTronic.Backend.BugApi.csproj", "{C0D902FF-D77C-40B9-AB97-2BD624F34D59}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTronic.Backend.AuthApi", "ProjectTronic.Backend.AuthApi\ProjectTronic.Backend.AuthApi.csproj", "{077D17E7-00A5-48E3-B46D-9F8D31F52056}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,7 @@ Global
 		{1EACA7E6-1C7B-4BAB-95A1-934ABC4AA7B0} = {15FBB6F9-367C-43CD-A01D-8D30539F37A8}
 		{6A3BA3A7-0360-449F-A97B-8F7565F8570E} = {D8AF9227-6DBF-4955-A7C0-5AD1B1E06347}
 		{C0D902FF-D77C-40B9-AB97-2BD624F34D59} = {D8AF9227-6DBF-4955-A7C0-5AD1B1E06347}
+		{077D17E7-00A5-48E3-B46D-9F8D31F52056} = {D8AF9227-6DBF-4955-A7C0-5AD1B1E06347}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{28A1F7BC-D9E6-4DB9-B69E-10135CD06B7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -77,5 +80,9 @@ Global
 		{C0D902FF-D77C-40B9-AB97-2BD624F34D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0D902FF-D77C-40B9-AB97-2BD624F34D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0D902FF-D77C-40B9-AB97-2BD624F34D59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{077D17E7-00A5-48E3-B46D-9F8D31F52056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{077D17E7-00A5-48E3-B46D-9F8D31F52056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{077D17E7-00A5-48E3-B46D-9F8D31F52056}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{077D17E7-00A5-48E3-B46D-9F8D31F52056}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

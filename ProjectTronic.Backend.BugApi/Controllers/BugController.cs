@@ -31,8 +31,7 @@ public class BugController : ControllerBase
         // Continuation Jobs
         BackgroundJob.ContinueJobWith(delayJobId, () => Console.WriteLine("Continuation Job In Action"));
 
-        
-        
+
         //recurring 
         RecurringJob.AddOrUpdate("JobId",
             () => Console.WriteLine("Recurring Job In Action"),
