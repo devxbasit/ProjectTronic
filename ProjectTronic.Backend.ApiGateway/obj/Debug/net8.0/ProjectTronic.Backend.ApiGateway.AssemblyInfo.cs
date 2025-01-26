@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjectTronic.Backend.ApiGateway")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74c092b563df90a6132e85e907479c5a40aa1d87")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9cc6b7165ef9ac1c96fc81f2e6a52fe3a60ce1f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjectTronic.Backend.ApiGateway")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjectTronic.Backend.ApiGateway")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
